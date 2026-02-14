@@ -322,7 +322,7 @@
 					},
 					{
 						"TYPE": "DAMAGE",
-						"VALUE": 20
+						"VALUE": 30
 					},
 					{
 						"TYPE": "RANGE",
@@ -1429,7 +1429,7 @@
 					},
 					{
 						"TYPE": "DAMAGE",
-						"VALUE": 20
+						"VALUE": 30
 					},
 					{
 						"TYPE": "RANGE",
@@ -2399,7 +2399,7 @@
 				],
 				"Chat": {
 					"en": "For Nightshade, smacking is a duty and a privilege. He comes from a long line of ardent smackers, and his family counts three kings, four ambassadors and a president as among those proudly slapped around.",
-					"zh": "对暗影龙葵来说，扇耳光是一份义务，也是一种特权。他的家族有三位国王、四位大使和一位总统，他们都曾以导出扇别人耳光为荣。"
+					"zh": "对暗影龙葵来说，扇耳光是一份义务，也是一种特权。他的家族有三位国王、四位大使和一位总统，他们都曾以到处扇别人耳光为荣。"
 				},
 				"BriefIntroduction": {
 					"en": "Smacks zombies with slappy leaves",
@@ -3144,7 +3144,7 @@
 						"TYPE": "SPECIAL",
 						"SORT": {
 							"en": "Chill",
-							"zh": "冻结"
+							"zh": "冷冻"
 						}
 					},
 					{
@@ -3876,6 +3876,169 @@
 		},
 		{
 			"aliases": [
+				"gumnut"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "TOUGHNESS"
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Gumnuts pop sticky gum onto zombies, pinning them in place and causing them to block other zombies behind them.",
+					"zh": "香果胶向僵尸喷溅口香糖，把他们定在原地，并拦住其身后的僵尸。"
+				},
+				"Special": [
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "stronger zombies form stronger barriers",
+							"zh": "口香糖的强度与僵尸的强度有关"
+						}
+					},
+					{
+						"NAME": {
+							"en": "Usage",
+							"zh": "用途"
+						},
+						"DESCRIPTION": {
+							"en": "best used against Gargantuars & Football Mechs",
+							"zh": "最好用于巨尸和机甲橄榄"
+						}
+					}
+				],
+				"Chat": {
+					"en": "\"I only chew ham-flavored gum,\" exudes Gumnut. \"Ham and salt.\"",
+					"zh": "“我只嚼火腿口味的口香糖，” 香果胶自信地说着，“必须是火腿加盐味的。”"
+				},
+				"BriefIntroduction": {
+					"en": "Creates gum barriers",
+					"zh": "制造口香糖障碍"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
+				"aloe"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "TOUGHNESS"
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Aloes heal injured plants to their immediate right, keeping them healthy as possible.",
+					"zh": "芦荟对其右边的植物进行治疗，使之尽可能保持完好。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "Aloe likes to soothe. He likes to alleviate, he likes to restore, he likes to mend. But don't ask him to revive. He's touchy about revival.",
+					"zh": "芦荟喜欢安抚。他喜欢缓解痛苦，乐于修复创伤，擅长弥合伤痕。但别让他去复活生命——他对“复活”这个词格外敏感。"
+				},
+				"BriefIntroduction": {
+					"en": "Heals rightward plants",
+					"zh": "治疗右边的植物"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
+				"hollyknight"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "TOUGHNESS"
+					},
+					{
+						"TYPE": "DAMAGE",
+						"VALUE": 20
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Holly Knight deals damage to zombies attacking him, and can launch 3 prickly barrier leaves to knock back and damage zombies.",
+					"zh": "冬青骑士对身边的僵尸造成伤害，还能发射三株带刺的障碍来击退并伤害僵尸。"
+				},
+				"Special": [
+					{
+						"NAME": {
+							"en": "Usage",
+							"zh": "用途"
+						},
+						"DESCRIPTION": {
+							"en": "tap to arm, tap on target tile to fire",
+							"zh": "点击瞄准，再点击目标格子发射"
+						}
+					},
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "projectiles become prickly barriers when hitting the floor",
+							"zh": "子弹砸中地面时生成带刺的障碍"
+						}
+					}
+				],
+				"Chat": {
+					"en": "Holly Knight would like to advise folks not to eat his berries. \"It's rude to eat somebody's berries without asking,\" he says. \"In addition, they are highly toxic.\"",
+					"zh": "冬青骑士会告诫大伙不要吃他身上的莓果。“不提前打声招呼就吃别人身上的莓果是很无礼的，”他说。“另外，他们是剧毒的。”"
+				},
+				"BriefIntroduction": {
+					"en": "Damages attacking zombies, tap to launch barriers",
+					"zh": "伤害身边的僵尸，点击发射障碍"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
 				"missiletoe"
 			],
 			"objclass": "PlantAlmanacProperties",
@@ -4013,6 +4176,523 @@
 				"BriefIntroduction": {
 					"en": "Blows up all zombies in a medium area",
 					"zh": "爆炸并对范围内僵尸造成伤害"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
+				"reinforcemint"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "DURATION",
+						"VALUE": 16
+					},
+					{
+						"TYPE": "SPECIAL",
+						"SORT": {
+							"en": "KnockBack",
+							"zh": "击退"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Reinforce-mints push all zombies back and provide a temporary boost to all Reinforce-mint Family plants on the lawn.",
+					"zh": "防御薄荷将所有僵尸击退，并为草坪上所有防御家族植物带来强化效果。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "Reinforce-mint isn't scowling. He's just workshopping defense strategies, doing what he can to support the team. Maybe he's scowling just a little bit. Fine.",
+					"zh": "防御薄荷没有皱着眉头，他只是在反复推敲防御策略，尽其所能支援团队。好吧，也许……他确实皱了一点点眉头。行吧。"
+				},
+				"BriefIntroduction": {
+					"en": "Boosts defence plants",
+					"zh": "强化防御植物"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
+				"enlightenmint"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "DURATION",
+						"VALUE": 10
+					},
+					{
+						"TYPE": "SPECIAL",
+						"SORT": {
+							"en": "Sun Production",
+							"zh": "阳光生产"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Enlighten-mints give a burst of sun when planted, and provide an additional temporary boost to Enlighten-mint Family plants.",
+					"zh": "启明薄荷在种植时产生一沓阳光，并为启明家族植物带来额外的能量。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "Enlighten-mint wants to stress that while \"enlightenment\" is properly understood as \"full comprehension of a situation,\" she herself frequently likes to ask follow-up questions just to be sure.",
+					"zh": "启明薄荷想强调，虽然“启明”的正确理解是“对处境的完全领悟”，但她本人经常喜欢多问几个后续问题，只为图个安心。"
+				},
+				"BriefIntroduction": {
+					"en": "Boosts sun plants",
+					"zh": "强化阳光植物"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
+				"wintermint"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "DURATION",
+						"VALUE": 10
+					},
+					{
+						"TYPE": "SPECIAL",
+						"SORT": {
+							"en": "Chill",
+							"zh": "冷冻"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Winter-mints chill all zombies on the board when planted and provide a temporary boost to all Winter-mint Family plants on the lawn.",
+					"zh": "寒冻薄荷在种植时使全场僵尸进入冷冻状态，并为所有寒冻家族植物带来增益效果。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "Winter-mint has advanced degrees in cryonics and cryogenics, is a master builder of snowmen, and subscribes to season passes at three different ski resorts. He does think it's a little chilly in here, though.",
+					"zh": "寒冻薄荷拥有低温学和人体冷冻学的高级学位，是堆雪人的大师，还订阅了三家不同滑雪场的季票。不过，他确实觉得那儿有点冷飕飕的。"
+				},
+				"BriefIntroduction": {
+					"en": "Boosts cold plants",
+					"zh": "强化寒冻植物"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
+				"spearmint"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "DURATION",
+						"VALUE": 18
+					},
+					{
+						"TYPE": "SPECIAL",
+						"SORT": {
+							"en": "Saw Attack",
+							"zh": "锯齿攻击"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Spear-mints generate a column of saws from the house and provide a temporary boost to all Spear-mint Family plants on the lawn.",
+					"zh": "穿刺薄荷在种植时从草坪左侧产生一列锋利的圆锯，并为所有穿刺家族植物带来增益效果。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "\"Slash!\" Spear-mint enthuses. \"Slishy-slashy-slice!\" she adds, wanting to make sure she's getting her point across. She wants to be very clear on this.",
+					"zh": "“斩！” 穿刺薄荷激昂道。“唰唰嚓嚓——切！”她补充道，为了确保自己的意思传达到位，并且表达得极其明确。"
+				},
+				"BriefIntroduction": {
+					"en": "Boosts piercing plants",
+					"zh": "强化穿刺植物"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
+				"appeasemint"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "DURATION",
+						"VALUE": 12
+					},
+					{
+						"TYPE": "SPECIAL",
+						"SORT": {
+							"en": "Giant Pea Attack",
+							"zh": "巨型豌豆攻击"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Appease-mints fire a volley of huge peas that break into smaller peas and provide a temporary boost to all Appease-mint Family plants on the lawn.",
+					"zh": "平射薄荷在种植时发射一打能分裂的巨型豌豆，并为所有平射家族植物带来增益效果。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "Appease-mint takes great umbrage at the notion that he might back down from a fight. \"Yes, my name is 'Appease-mint,' but that has more to do with my affinity towards peas than any disinclination to stand up for my beliefs. Rescind your vile calumny this instant, lest I compose a blistering letter of outrage!\"",
+					"zh": "平射薄荷对于自己可能在争斗中退缩的说法感到极为愤慨。“没错，我叫“平射薄荷”，但这是因为我希望大家能平稳地射出子弹，而不是不愿坚持我的信念。立刻收回你那恶毒的诽谤，否则我就写一封言辞激烈的谴责信！”"
+				},
+				"BriefIntroduction": {
+					"en": "Boosts straight shooters",
+					"zh": "强化直射子弹的植物"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
+				"bombardmint"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "DURATION",
+						"VALUE": 16
+					},
+					{
+						"TYPE": "SPECIAL",
+						"SORT": {
+							"en": "Explosive Attack",
+							"zh": "爆炸攻击"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Bombard-mints set off a number of explosions on the board and provide a temporary boost to all Bombard-mint Family plants on the lawn.",
+					"zh": "爆裂薄荷在种植时在场上引起几发爆炸，并为所有爆裂家族植物带来增益效果。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "\"Explosions are fun,\" says Bombard-mint with an impish twinkle in her eye. \"In the context of eliminating zombies, a cascade of detonations not only clears much of the board, but leaves a lovely fragrance in its wake. It smells like... victory.\"",
+					"zh": "“爆炸可好玩了，” 爆裂薄荷眼中闪着淘气的光芒说。“在消灭僵尸的时候，一连串的爆破不仅能清掉大半个场子，事后还会留下美妙的香气。那闻起来就像是……胜利的味道。”"
+				},
+				"BriefIntroduction": {
+					"en": "Boosts explosive plants",
+					"zh": "强化爆炸植物"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
+				"enforcemint"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "DURATION",
+						"VALUE": 18
+					},
+					{
+						"TYPE": "SPECIAL",
+						"SORT": {
+							"en": "Shrinking Zombies",
+							"zh": "缩小僵尸"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Enforce-mints shrink a number of zombies when planted and provide a temporary boost to all Enforce-mint Family plants on the lawn.",
+					"zh": "健壮薄荷在种植时缩小场上的好几个僵尸，并为所有健壮家族植物带来增益效果。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "Enforce-mint shrinks zombies, which may seem a bit off-brand for a guy who's all about melee damage. Enforce-mint shrugs. \"I don't set policy。\" he says.",
+					"zh": "健壮薄荷能缩小僵尸，这对一个专精近战伤害的家伙来说似乎有点“人设不符”。强制薄荷耸了耸肩。对此他表示：“规则不是我定的。”"
+				},
+				"BriefIntroduction": {
+					"en": "Boosts melee plants",
+					"zh": "强化近战的植物"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
+				"concealmint"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "DURATION",
+						"VALUE": 12
+					},
+					{
+						"TYPE": "SPECIAL",
+						"SORT": {
+							"en": "Dragging Zombies",
+							"zh": "拽下僵尸"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Conceal-mints power up all shadow plants on the lawn, drag some number of zombies to their doom, and provide an additional temporary boost to Conceal-mint Family plants.",
+					"zh": "暗影薄荷在种植时将场上的几只僵尸拽入地下，并为所有暗影家族植物带来增益效果。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "Conceal-mint ducks ninja-like out of the party without telling a soul. \"Where's Conceal-mint?\" ask the other plants. They don't know. Nobody does. Conceal-mint is just that sneaky.",
+					"zh": "暗影薄荷像忍者一样，悄无声息地从队伍里溜走了。“暗影薄荷去哪了？”其他植物问道。他们不知道，谁也不知道，暗影薄荷就是这般神出鬼没。"
+				},
+				"BriefIntroduction": {
+					"en": "Boosts shadow plants",
+					"zh": "强化暗影植物"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
+				"ailmint"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "DURATION",
+						"VALUE": 12
+					},
+					{
+						"TYPE": "SPECIAL",
+						"SORT": {
+							"en": "Poison",
+							"zh": "剧毒"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Ail-mints poison all zombies when planted and provide a temporary boost to all Ail-mint Family plants on the lawn.",
+					"zh": "剧毒薄荷在种植时使所有僵尸沾上毒液，并为所有剧毒家族植物带来增益效果。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "Ail-mint is quick to state that poison should not be taken internally. Or externally, for that matter. Really, just leave it alone. It's poison!",
+					"zh": "剧毒薄荷紧急声明：毒药不可内服。同理，也不可外用。真的，碰都别碰。那可是毒药！"
+				},
+				"BriefIntroduction": {
+					"en": "Boosts poison plants and fungi",
+					"zh": "强化毒性植物和菌类"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
+				"enchantmint"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "DURATION",
+						"VALUE": 16
+					},
+					{
+						"TYPE": "SPECIAL",
+						"SORT": {
+							"en": "Hypnotizing Zombie",
+							"zh": "魅惑僵尸"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Enchant-mints randomly hypnotize a number of zombies and provide a temporary boost to all Enchant-mint Family plants on the lawn.",
+					"zh": "魔法薄荷在种植时魅惑场上的几只僵尸，并为所有魔法家族植物带来增益效果。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "\"I just love musical theater。\" says Enchant-mint. Yeah, it doesn't have much to do with magic or his abilities or strategic strengths, but it's a fact. He just likes the songs.",
+					"zh": "“我就是热爱音乐剧。” 魔法薄荷说道。没错，这和他的魔法、能力或战略优势没什么关系，但这是事实。他就是喜欢那些歌曲。"
+				},
+				"BriefIntroduction": {
+					"en": "Boosts magical plants",
+					"zh": "强化魔法植物"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
+				"peppermint"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "DURATION",
+						"VALUE": 16
+					},
+					{
+						"TYPE": "SPECIAL",
+						"SORT": {
+							"en": "Burning Zombies",
+							"zh": "燃烧僵尸"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Pepper-mints set off lane-wide bursts of flame when planted and provide a temporary boost to all Pepper-mint plants on the lawn.",
+					"zh": "热辣薄荷在种植时在全场燃起火焰，并为所有热辣家族植物带来增益效果。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "Pepper-mint likes heat. He's down with flames, he digs on fire, he's a total madman for oxidization and ignition. If he sees you rubbing two sticks together, he'll come over and ask about it. He can't help himself.",
+					"zh": "热辣薄荷喜欢热，他对火焰来者不拒，对烈火情有独钟，是个不折不扣的氧化与点燃狂人。要是看见你在搓两根木棍，他准会凑过来问个究竟——他实在忍不住。"
+				},
+				"BriefIntroduction": {
+					"en": "Boosts fire plants",
+					"zh": "强化火焰植物"
 				},
 				"DisplayOffset": {
 					"x": 0,
@@ -5079,6 +5759,13 @@
 						}
 					},
 					{
+						"TYPE": "SPECIAL",
+						"SORT": {
+							"en": "Chill",
+							"zh": "冷冻"
+						}
+					},
+					{
 						"TYPE": "FAMILY"
 					}
 				],
@@ -5393,7 +6080,7 @@
 						"TYPE": "SPECIAL",
 						"SORT": {
 							"en": "Chill",
-							"zh": "冻结"
+							"zh": "冷冻"
 						}
 					},
 					{
@@ -9488,6 +10175,63 @@
 		},
 		{
 			"aliases": [
+				"caulipower"
+			],
+			"objclass": "PlantAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "TOUGHNESS"
+					},
+					{
+						"TYPE": "RANGE",
+						"SORT": {
+							"en": "Full Board",
+							"zh": "全屏"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Caulipowers use their mental powers to hypnotize random zombies and turn them against their former friends.",
+					"zh": "超能花菜利用他们的心灵控制能力来魅惑随机的僵尸，使之以他们的同类为敌。"
+				},
+				"Special": [
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "hovers above ground or water",
+							"zh": "能飘浮于水面上"
+						}
+					}
+				],
+				"Chat": {
+					"en": "Caulipower's eyes spin with distress. He's just thought of a really great ending for his novel, but he's afraid his cousin won't understand it.",
+					"zh": "超能花菜压力很大，双眼晕眩地转了起来。他只是想为自己的小说写个大结局，但是他很担心自己的表弟读不懂。"
+				},
+				"BriefIntroduction": {
+					"en": "Hypnotizes electrocute zombies",
+					"zh": "魅惑随机的僵尸"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"aliases": [
 				"electricblueberry"
 			],
 			"objclass": "PlantAlmanacProperties",
@@ -9524,7 +10268,7 @@
 				},
 				"BriefIntroduction": {
 					"en": "Randomly electrocute zombies",
-					"zh": "烧毁随机的僵尸"
+					"zh": "电击烧毁随机的僵尸"
 				},
 				"DisplayOffset": {
 					"x": 0,

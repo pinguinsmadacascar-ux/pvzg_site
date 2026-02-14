@@ -329,7 +329,7 @@
 			"TYPE": [
 				"vine"
 			],
-			"OBTAINWORLD": "market",
+			"OBTAINWORLD": "epic",
 			"ZENGARDEN": {
 				"PlantPlace": "dirt"
 			},
@@ -379,6 +379,7 @@
 			],
 			"OBTAINWORLD": "epic",
 			"ZENGARDEN": {
+				"FixedWeight": 1,
 				"PlantPlace": "fly"
 			},
 			"BOOST": 2,
@@ -545,7 +546,7 @@
 			"TYPE": [
 				"fly"
 			],
-			"OBTAINWORLD": "epic",
+			"OBTAINWORLD": "market",
 			"ZENGARDEN": {
 				"PlantPlace": "fly"
 			},
@@ -571,6 +572,7 @@
 			],
 			"OBTAINWORLD": "water",
 			"ZENGARDEN": {
+				"FixedWeight": 1,
 				"PlantPlace": "float"
 			},
 			"BOOST": 2,
@@ -819,7 +821,7 @@
 				"PlantPlace": "dirt"
 			},
 			"BOOST": 3,
-			"COSTUME": 0,
+			"COSTUME": 1,
 			"ALMANAC": "RTID(umbrellaleaf@PlantAlmanac)",
 			"PROPS": "RTID(umbrellaleaf@PlantProps)",
 			"RES": {
@@ -1384,6 +1386,7 @@
 			],
 			"OBTAINWORLD": "market",
 			"ZENGARDEN": {
+				"FixedWeight": 1,
 				"PlantPlace": "dirt"
 			},
 			"BOOST": 0,
@@ -2041,6 +2044,7 @@
 			"COSTUME": 0,
 			"OBTAINWORLD": "market",
 			"ZENGARDEN": {
+				"FixedWeight": 1,
 				"PlantPlace": "dirt"
 			},
 			"BOOST": 0,
@@ -2240,7 +2244,8 @@
 			],
 			"OBTAINWORLD": "future",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 1,
+				"PlantPlace": "solid"
 			},
 			"BOOST": 0,
 			"COSTUME": 4,
@@ -2267,7 +2272,8 @@
 			"BOOST": 0,
 			"OBTAINWORLD": "future",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 1,
+				"PlantPlace": "solid"
 			},
 			"COSTUME": 4,
 			"ALMANAC": "RTID(powerplant_beta@PlantAlmanac)",
@@ -2293,7 +2299,8 @@
 			"BOOST": 0,
 			"OBTAINWORLD": "future",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 1,
+				"PlantPlace": "solid"
 			},
 			"COSTUME": 4,
 			"ALMANAC": "RTID(powerplant_gamma@PlantAlmanac)",
@@ -2319,7 +2326,8 @@
 			"BOOST": 0,
 			"OBTAINWORLD": "future",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 1,
+				"PlantPlace": "solid"
 			},
 			"COSTUME": 4,
 			"ALMANAC": "RTID(powerplant_delta@PlantAlmanac)",
@@ -2345,7 +2353,8 @@
 			"BOOST": 0,
 			"OBTAINWORLD": "future",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 1,
+				"PlantPlace": "solid"
 			},
 			"COSTUME": 4,
 			"ALMANAC": "RTID(powerplant_epsilon@PlantAlmanac)",
@@ -2394,9 +2403,10 @@
 			],
 			"OBTAINWORLD": "future",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 1,
+				"PlantPlace": "solid"
 			},
-			"BOOST": 2,
+			"BOOST": 0,
 			"COSTUME": 4,
 			"SubPlantList": [
 				"powerplant_alpha",
@@ -2406,7 +2416,7 @@
 				"powerplant_epsilon"
 			],
 			"ALMANAC": "RTID(powerplant@PlantAlmanac)",
-			"PROPS": "RTID(powerplant@PlantProps)",
+			"PROPS": "RTID(powerplant_epsilon@PlantProps)",
 			"RES": {
 				"Disabled": "TileTurnipEpsilon",
 				"Plant": "TileTurnipEpsilon"
@@ -2750,6 +2760,7 @@
 			"COSTUME": 0,
 			"OBTAINWORLD": "",
 			"ZENGARDEN": {
+				"FixedWeight": 0,
 				"PlantPlace": "dirt"
 			},
 			"BOOST": 0,
@@ -2773,6 +2784,7 @@
 			],
 			"OBTAINWORLD": "",
 			"ZENGARDEN": {
+				"FixedWeight": 0,
 				"PlantPlace": "dirt"
 			},
 			"BOOST": 0,
@@ -2798,6 +2810,7 @@
 			"COSTUME": 0,
 			"OBTAINWORLD": "",
 			"ZENGARDEN": {
+				"FixedWeight": 0,
 				"PlantPlace": "dirt"
 			},
 			"BOOST": 0,
@@ -2825,7 +2838,7 @@
 			"OBTAINWORLD": "water",
 			"ZENGARDEN": {
 				"PlantPlace": "float",
-				"Height": 20
+				"Height": 40
 			},
 			"BOOST": 2,
 			"ALMANAC": "RTID(tanglekelp@PlantAlmanac)",
@@ -2885,7 +2898,8 @@
 			],
 			"OBTAINWORLD": "",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 0,
+				"PlantPlace": "none"
 			},
 			"BOOST": 0,
 			"COSTUME": 0,
@@ -2910,7 +2924,8 @@
 			],
 			"OBTAINWORLD": "",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 0,
+				"PlantPlace": "none"
 			},
 			"BOOST": 0,
 			"COSTUME": 0,
@@ -2935,7 +2950,8 @@
 			],
 			"OBTAINWORLD": "",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 0,
+				"PlantPlace": "none"
 			},
 			"BOOST": 0,
 			"COSTUME": 0,
@@ -2960,7 +2976,8 @@
 			],
 			"OBTAINWORLD": "",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 0,
+				"PlantPlace": "none"
 			},
 			"BOOST": 0,
 			"COSTUME": 0,
@@ -3010,7 +3027,8 @@
 			],
 			"OBTAINWORLD": "",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 0,
+				"PlantPlace": "none"
 			},
 			"BOOST": 0,
 			"COSTUME": 0,
@@ -3035,7 +3053,8 @@
 			],
 			"OBTAINWORLD": "",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 0,
+				"PlantPlace": "none"
 			},
 			"BOOST": 0,
 			"ALMANAC": "RTID(empty@PlantAlmanac)",
@@ -3060,7 +3079,8 @@
 			],
 			"OBTAINWORLD": "",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 0,
+				"PlantPlace": "none"
 			},
 			"BOOST": 0,
 			"COSTUME": 0,
@@ -3087,7 +3107,8 @@
 			"COSTUME": 0,
 			"OBTAINWORLD": "",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 0,
+				"PlantPlace": "none"
 			},
 			"ALMANAC": "RTID(empty@PlantAlmanac)",
 			"PROPS": "RTID(tool_projectile_bowling_primalwallnut@PlantProps)",
@@ -3112,7 +3133,8 @@
 			"COSTUME": 0,
 			"OBTAINWORLD": "",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 0,
+				"PlantPlace": "none"
 			},
 			"ALMANAC": "RTID(empty@PlantAlmanac)",
 			"PROPS": "RTID(tool_projectile_bowlingbulb_iceburg@PlantProps)",
@@ -3136,7 +3158,8 @@
 			"COSTUME": 0,
 			"OBTAINWORLD": "",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 0,
+				"PlantPlace": "none"
 			},
 			"BOOST": 0,
 			"ALMANAC": "RTID(empty@PlantAlmanac)",
@@ -3285,7 +3308,8 @@
 			],
 			"OBTAINWORLD": "lostcity",
 			"ZENGARDEN": {
-				"PlantPlace": "dirt"
+				"FixedWeight": 1,
+				"PlantPlace": "solid"
 			},
 			"BOOST": 0,
 			"COSTUME": 3,
@@ -3457,6 +3481,7 @@
 			],
 			"OBTAINWORLD": "eighties",
 			"ZENGARDEN": {
+				"FixedWeight": 1,
 				"PlantPlace": "dirt"
 			},
 			"BOOST": 0,
@@ -3976,6 +4001,7 @@
 			"COSTUME": 2,
 			"OBTAINWORLD": "dino",
 			"ZENGARDEN": {
+				"FixedWeight": 1,
 				"PlantPlace": "dirt"
 			},
 			"BOOST": 0,
@@ -4272,7 +4298,7 @@
 				"vine",
 				"sunProducer"
 			],
-			"OBTAINWORLD": "market",
+			"OBTAINWORLD": "epic",
 			"ZENGARDEN": {
 				"PlantPlace": "dirt"
 			},
@@ -4311,6 +4337,464 @@
 			"RES": {
 				"Disabled": "AtomBomb",
 				"Plant": "Seedling"
+			}
+		},
+		{
+			"ID": 174,
+			"NAME": {
+				"en": "Holly Knight",
+				"zh": "冬青骑士"
+			},
+			"_CARDSPRITENAME": "hollybarrier",
+			"CODENAME": "hollyknight",
+			"TYPE": [
+				"plant"
+			],
+			"OBTAINWORLD": "epic",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"SubPlantList": [
+				"hollybarrierleaf",
+				"hollybarrierleafplantfood"
+			],
+			"BOOST": 2,
+			"COSTUME": 1,
+			"ALMANAC": "RTID(hollyknight@PlantAlmanac)",
+			"PROPS": "RTID(hollyknight@PlantProps)",
+			"RES": {
+				"Disabled": "HollyKnight",
+				"Plant": "HollyKnight"
+			}
+		},
+		{
+			"ID": 175,
+			"NAME": {
+				"en": "Holly Barrier Leaf",
+				"zh": "冬青骑士障碍"
+			},
+			"_CARDSPRITENAME": "hollyleaf",
+			"CODENAME": "hollybarrierleaf",
+			"TYPE": [
+				"amphibious"
+			],
+			"OBTAINWORLD": "",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"BOOST": 0,
+			"COSTUME": 0,
+			"ALMANAC": "RTID(empty@PlantAlmanac)",
+			"PROPS": "RTID(hollybarrierleaf@PlantProps)",
+			"RES": {
+				"Disabled": "HollyBarrier",
+				"Plant": "HollyBarrier"
+			}
+		},
+		{
+			"ID": 176,
+			"NAME": {
+				"en": "Plantfood Holly Barrier Leaf",
+				"zh": "叶绿素冬青骑士障碍"
+			},
+			"_CARDSPRITENAME": "hollyleaf_pf",
+			"CODENAME": "hollybarrierleafplantfood",
+			"TYPE": [
+				"amphibious"
+			],
+			"OBTAINWORLD": "",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"BOOST": 0,
+			"COSTUME": 0,
+			"ALMANAC": "RTID(empty@PlantAlmanac)",
+			"PROPS": "RTID(hollybarrierleafplantfood@PlantProps)",
+			"RES": {
+				"Disabled": "HollyBarrierFood",
+				"Plant": "HollyBarrierFood"
+			}
+		},
+		{
+			"ID": 177,
+			"NAME": {
+				"en": "Aloe",
+				"zh": "芦荟"
+			},
+			"_CARDSPRITENAME": "aloe",
+			"CODENAME": "aloe",
+			"TYPE": [
+				"plant"
+			],
+			"OBTAINWORLD": "epic",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"BOOST": 2,
+			"COSTUME": 2,
+			"ALMANAC": "RTID(aloe@PlantAlmanac)",
+			"PROPS": "RTID(aloe@PlantProps)",
+			"RES": {
+				"Disabled": "Aloe",
+				"Plant": "Aloe"
+			}
+		},
+		{
+			"ID": 178,
+			"NAME": {
+				"en": "Caulipower",
+				"zh": "超能花菜"
+			},
+			"_CARDSPRITENAME": "caulipower",
+			"CODENAME": "caulipower",
+			"TYPE": [
+				"fly"
+			],
+			"OBTAINWORLD": "market",
+			"ZENGARDEN": {
+				"PlantPlace": "fly"
+			},
+			"BOOST": 2,
+			"COSTUME": 1,
+			"ALMANAC": "RTID(caulipower@PlantAlmanac)",
+			"PROPS": "RTID(caulipower@PlantProps)",
+			"RES": {
+				"Disabled": "Caulipower",
+				"Plant": "Caulipower"
+			}
+		},
+		{
+			"ID": 179,
+			"NAME": {
+				"en": "Gumnut",
+				"zh": "香果胶"
+			},
+			"_CARDSPRITENAME": "gumnut",
+			"CODENAME": "gumnut",
+			"TYPE": [
+				"plant",
+				"losingPlant"
+			],
+			"OBTAINWORLD": "epic",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"BOOST": 2,
+			"COSTUME": 1,
+			"ALMANAC": "RTID(gumnut@PlantAlmanac)",
+			"PROPS": "RTID(gumnut@PlantProps)",
+			"RES": {
+				"Disabled": "Gumnut",
+				"Plant": "Gumnut"
+			}
+		},
+		{
+			"ID": 180,
+			"NAME": {
+				"en": "Reinforce-mint",
+				"zh": "防御薄荷"
+			},
+			"_CARDSPRITENAME": "mint_defence",
+			"CODENAME": "reinforcemint",
+			"TYPE": [
+				"plant",
+				"mint",
+				"lastStandDisallowed",
+				"imitateDisallowed",
+				"losingPlant"
+			],
+			"OBTAINWORLD": "mint",
+			"ZENGARDEN": {
+				"PlantPlace": "solid"
+			},
+			"BOOST": 0,
+			"COSTUME": 0,
+			"ALMANAC": "RTID(reinforcemint@PlantAlmanac)",
+			"PROPS": "RTID(reinforcemint@PlantProps)",
+			"RES": {
+				"Disabled": "ReinforceMint",
+				"Plant": "ReinforceMint"
+			}
+		},
+		{
+			"ID": 181,
+			"NAME": {
+				"en": "Enlighten-mint",
+				"zh": "启明薄荷"
+			},
+			"_CARDSPRITENAME": "mint_sun",
+			"CODENAME": "enlightenmint",
+			"TYPE": [
+				"fly",
+				"mint",
+				"sunProducer",
+				"lastStandDisallowed",
+				"imitateDisallowed",
+				"losingPlant"
+			],
+			"OBTAINWORLD": "mint",
+			"ZENGARDEN": {
+				"PlantPlace": "fly"
+			},
+			"BOOST": 0,
+			"COSTUME": 0,
+			"ALMANAC": "RTID(enlightenmint@PlantAlmanac)",
+			"PROPS": "RTID(enlightenmint@PlantProps)",
+			"RES": {
+				"Disabled": "EnlightenMint",
+				"Plant": "EnlightenMint"
+			}
+		},
+		{
+			"ID": 182,
+			"NAME": {
+				"en": "Winter-mint",
+				"zh": "寒冻薄荷"
+			},
+			"_CARDSPRITENAME": "mint_cold",
+			"CODENAME": "wintermint",
+			"TYPE": [
+				"plant",
+				"mint",
+				"lastStandDisallowed",
+				"imitateDisallowed",
+				"losingPlant"
+			],
+			"OBTAINWORLD": "mint",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"BOOST": 0,
+			"COSTUME": 0,
+			"ALMANAC": "RTID(wintermint@PlantAlmanac)",
+			"PROPS": "RTID(wintermint@PlantProps)",
+			"RES": {
+				"Disabled": "WinterMint",
+				"Plant": "WinterMint"
+			}
+		},
+		{
+			"ID": 183,
+			"NAME": {
+				"en": "Spear-mint",
+				"zh": "穿刺薄荷"
+			},
+			"_CARDSPRITENAME": "mint_sharp",
+			"CODENAME": "spearmint",
+			"TYPE": [
+				"plant",
+				"mint",
+				"lastStandDisallowed",
+				"imitateDisallowed",
+				"losingPlant"
+			],
+			"OBTAINWORLD": "mint",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"BOOST": 0,
+			"COSTUME": 0,
+			"ALMANAC": "RTID(spearmint@PlantAlmanac)",
+			"PROPS": "RTID(spearmint@PlantProps)",
+			"RES": {
+				"Disabled": "SpearMint",
+				"Plant": "SpearMint"
+			}
+		},
+		{
+			"ID": 184,
+			"NAME": {
+				"en": "Appease-mint",
+				"zh": "平射薄荷"
+			},
+			"_CARDSPRITENAME": "mint_peashooter",
+			"CODENAME": "appeasemint",
+			"TYPE": [
+				"plant",
+				"mint",
+				"lastStandDisallowed",
+				"imitateDisallowed",
+				"losingPlant"
+			],
+			"OBTAINWORLD": "mint",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"BOOST": 0,
+			"COSTUME": 0,
+			"ALMANAC": "RTID(appeasemint@PlantAlmanac)",
+			"PROPS": "RTID(appeasemint@PlantProps)",
+			"RES": {
+				"Disabled": "AppeaseMint",
+				"Plant": "AppeaseMint"
+			}
+		},
+		{
+			"ID": 185,
+			"NAME": {
+				"en": "Enforce-mint",
+				"zh": "健壮薄荷"
+			},
+			"_CARDSPRITENAME": "mint_melee",
+			"CODENAME": "enforcemint",
+			"TYPE": [
+				"plant",
+				"mint",
+				"lastStandDisallowed",
+				"imitateDisallowed",
+				"losingPlant"
+			],
+			"OBTAINWORLD": "mint",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"BOOST": 0,
+			"COSTUME": 0,
+			"ALMANAC": "RTID(enforcemint@PlantAlmanac)",
+			"PROPS": "RTID(enforcemint@PlantProps)",
+			"RES": {
+				"Disabled": "EnforceMint",
+				"Plant": "EnforceMint"
+			}
+		},
+		{
+			"ID": 186,
+			"NAME": {
+				"en": "Pepper-mint",
+				"zh": "热辣薄荷"
+			},
+			"_CARDSPRITENAME": "mint_fire",
+			"CODENAME": "peppermint",
+			"TYPE": [
+				"plant",
+				"mint",
+				"lastStandDisallowed",
+				"imitateDisallowed",
+				"losingPlant"
+			],
+			"OBTAINWORLD": "mint",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"BOOST": 0,
+			"COSTUME": 0,
+			"ALMANAC": "RTID(peppermint@PlantAlmanac)",
+			"PROPS": "RTID(peppermint@PlantProps)",
+			"RES": {
+				"Disabled": "PepperMint",
+				"Plant": "PepperMint"
+			}
+		},
+		{
+			"ID": 187,
+			"NAME": {
+				"en": "Bombard-mint",
+				"zh": "爆裂薄荷"
+			},
+			"_CARDSPRITENAME": "mint_explosive",
+			"CODENAME": "bombardmint",
+			"TYPE": [
+				"plant",
+				"mint",
+				"lastStandDisallowed",
+				"imitateDisallowed",
+				"losingPlant"
+			],
+			"OBTAINWORLD": "mint",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"BOOST": 0,
+			"COSTUME": 0,
+			"ALMANAC": "RTID(bombardmint@PlantAlmanac)",
+			"PROPS": "RTID(bombardmint@PlantProps)",
+			"RES": {
+				"Disabled": "BombardMint",
+				"Plant": "BombardMint"
+			}
+		},
+		{
+			"ID": 188,
+			"NAME": {
+				"en": "Conceal-mint",
+				"zh": "暗影薄荷"
+			},
+			"_CARDSPRITENAME": "mint_shadow",
+			"CODENAME": "concealmint",
+			"TYPE": [
+				"plant",
+				"mint",
+				"lastStandDisallowed",
+				"imitateDisallowed",
+				"losingPlant"
+			],
+			"OBTAINWORLD": "mint",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"BOOST": 0,
+			"COSTUME": 0,
+			"ALMANAC": "RTID(concealmint@PlantAlmanac)",
+			"PROPS": "RTID(concealmint@PlantProps)",
+			"RES": {
+				"Disabled": "ConcealMint",
+				"Plant": "ConcealMint"
+			}
+		},
+		{
+			"ID": 189,
+			"NAME": {
+				"en": "Ail-mint",
+				"zh": "剧毒薄荷"
+			},
+			"_CARDSPRITENAME": "mint_poison",
+			"CODENAME": "ailmint",
+			"TYPE": [
+				"plant",
+				"mint",
+				"lastStandDisallowed",
+				"imitateDisallowed",
+				"losingPlant"
+			],
+			"OBTAINWORLD": "mint",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"BOOST": 0,
+			"COSTUME": 0,
+			"ALMANAC": "RTID(ailmint@PlantAlmanac)",
+			"PROPS": "RTID(ailmint@PlantProps)",
+			"RES": {
+				"Disabled": "AilMint",
+				"Plant": "AilMint"
+			}
+		},
+		{
+			"ID": 190,
+			"NAME": {
+				"en": "Enchant-mint",
+				"zh": "魔法薄荷"
+			},
+			"_CARDSPRITENAME": "mint_magic",
+			"CODENAME": "enchantmint",
+			"TYPE": [
+				"plant",
+				"mint",
+				"lastStandDisallowed",
+				"imitateDisallowed",
+				"losingPlant"
+			],
+			"OBTAINWORLD": "mint",
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"BOOST": 0,
+			"COSTUME": 0,
+			"ALMANAC": "RTID(enchantmint@PlantAlmanac)",
+			"PROPS": "RTID(enchantmint@PlantProps)",
+			"RES": {
+				"Disabled": "EnchantMint",
+				"Plant": "EnchantMint"
 			}
 		}
 	],
@@ -4365,6 +4849,9 @@
 		"powerplant",
 		"applemortar",
 		"solartomato",
+		"pumpkin",
+		"hollyknight",
+		"gumnut",
 		"hypnoshroom",
 		"sunshroom",
 		"puffshroom",
@@ -4403,7 +4890,6 @@
 		"gatling",
 		"megagatling",
 		"torchwood",
-		"floawerPot",
 		"lavaguava",
 		"redstinger",
 		"akee",
@@ -4412,10 +4898,11 @@
 		"stallia",
 		"goldleaf",
 		"zoybeanpod",
+		"aloe",
 		"shinevine",
 		"skyshooter",
 		"moonbean",
-		"strawburst",
+		"floawerPot",
 		"firegourd",
 		"snowpea",
 		"bambooshoot",
@@ -4427,6 +4914,7 @@
 		"cantaloupe",
 		"bamboozle",
 		"atombomb_seedling",
+		"strawburst",
 		"cactus",
 		"phatbeet",
 		"celerystalker",
@@ -4435,6 +4923,7 @@
 		"garlic",
 		"sporeshroom",
 		"intensivecarrot",
+		"caulipower",
 		"bloominghearts",
 		"grapeshot",
 		"primalpeashooter",
@@ -4456,9 +4945,19 @@
 		"gloomvine",
 		"gloomshroom",
 		"umbrellaleaf",
-		"pumpkin",
 		"dragonbruit",
-		"cranjelly"
+		"cranjelly",
+		"appeasemint",
+		"enlightenmint",
+		"reinforcemint",
+		"bombardmint",
+		"spearmint",
+		"wintermint",
+		"enforcemint",
+		"peppermint",
+		"ailmint",
+		"enchantmint",
+		"concealmint"
 	],
 	"ALMANACHIDDENORDER": [
 		"dragonbabybruit"
@@ -4531,6 +5030,11 @@
 		"shootingstarfruit",
 		"applemortar",
 		"solartomato",
+		"pumpkin",
+		"hollyknight",
+		"hollybarrierleaf",
+		"hollybarrierleafplantfood",
+		"gumnut",
 		"sunshroom",
 		"puffshroom",
 		"fumeshroom",
@@ -4590,8 +5094,8 @@
 		"lavaguava",
 		"toadstool",
 		"zoybeanpod",
+		"aloe",
 		"shinevine",
-		"strawburst",
 		"firegourd",
 		"snowpea",
 		"bambooshoot",
@@ -4604,7 +5108,7 @@
 		"bamboozle",
 		"bamboobusket",
 		"atombomb_seedling",
-		"seedling",
+		"atombomb",
 		"skyshooter",
 		"moonbean",
 		"floawerPot",
@@ -4616,6 +5120,8 @@
 		"intensivecarrot",
 		"cactus",
 		"electricblueberry",
+		"caulipower",
+		"strawburst",
 		"bloominghearts",
 		"primalpeashooter",
 		"primalwallnut",
@@ -4636,10 +5142,20 @@
 		"escaperoot",
 		"gloomshroom",
 		"umbrellaleaf",
-		"pumpkin",
 		"gloomvine",
 		"dragonbruit",
 		"dragonbabybruit",
-		"cranjelly"
+		"cranjelly",
+		"appeasemint",
+		"enlightenmint",
+		"reinforcemint",
+		"bombardmint",
+		"spearmint",
+		"wintermint",
+		"enforcemint",
+		"peppermint",
+		"ailmint",
+		"enchantmint",
+		"concealmint"
 	]
 }
