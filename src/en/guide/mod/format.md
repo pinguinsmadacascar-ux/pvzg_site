@@ -1,9 +1,9 @@
 ---
-title: Properties Reference (latest)
+title: Properties Reference
 icon: file-invoice
 pageInfo: false
 index: true
-order: 2
+order: 4
 ---
 
 <script setup>
@@ -13,16 +13,13 @@ order: 2
     })
 </script>
 
-> [!warning]
-> The following tutorial only works for versions `0.3.X`-`0.6.X`.
-
 > [!important]
 > In the tables, properties in _italics_ are properties that you probably shouldn't modify. Modifying them may cause the game to crash or bug out.
 
 <ins class="adsbygoogle"
      style="display:block"
-     data-ad-client="ca-pub-2336226859954206"
-     data-ad-slot="6758794743"
+     data-ad-client="ca-pub-7637695321442015"
+     data-ad-slot="7113006248"
      data-ad-format="auto"
      data-full-width-responsive="true">
 </ins>
@@ -103,7 +100,7 @@ The `aliases` array contains the plant's `CODENAME`, used to indicate the corres
 
 ## Store Files
 
-The `StoreCommodityFeatures.json` file contains store commodity information, including four arrays: `Plants`, `Upgrade`, `Gem`, and `Coin`, representing different types of commodity information.
+The `StoreCommodityFeatures.json` file contains store commodity information, including five arrays: `Plants`, `Upgrade`, `Gem`, `Coin`, and `Zen`, representing different types of commodity information.
 
 ### Plants
 
@@ -187,6 +184,19 @@ The `Coin` array contains information about Coin commodities.
 | ------------------------ | ------------------------------------- |
 | _CommodityType_          | Fixed value "coin"                    |
 | CommodityCount           | Amount of Coins obtained              |
+| **CurrencyType**         | Currency type ("gem" or "coin")       |
+| CurrencyRequired         | Amount of currency required           |
+| _StackLevel_             | Commodity pack level                  |
+| **CommodityDisplayName** | Commodity display name (multilingual) |
+
+### Zen
+
+The `Zen` array contains information about Zen Garden commodities. Its structure is identical to `Gem`/`Coin`.
+
+| Property                 | Description                           |
+| ------------------------ | ------------------------------------- |
+| _CommodityType_          | Fixed value "zen"                     |
+| CommodityCount           | Amount of Zen Garden resources obtained |
 | **CurrencyType**         | Currency type ("gem" or "coin")       |
 | CurrencyRequired         | Amount of currency required           |
 | _StackLevel_             | Commodity pack level                  |

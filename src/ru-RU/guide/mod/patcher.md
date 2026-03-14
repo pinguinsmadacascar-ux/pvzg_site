@@ -1,9 +1,9 @@
 ---
-title: Руководство по GE Patcher (последняя версия)
+title: Руководство по GE Patcher (старый формат)
 icon: wrench
 pageInfo: false
 index: true
-order: 1
+order: 3
 ---
 
 <script setup>
@@ -14,7 +14,7 @@ order: 1
 </script>
 
 > [!warning]
-> Это руководство работает только для версий `0.3.X`.
+> gePatcher из этого руководства применим только к версиям `0.3.X`-`0.7.1`. Для версии `0.7.1` и выше используйте `GP-Next`. См. [здесь](gp-next.md).
 
 GE Patcher - это инструмент для изменения данных игры Plants vs. Zombies 2 Gardendless, поддерживающий пользовательские модификации растений, зомби, улучшений, магазина, уровней и многого другого.
 
@@ -28,8 +28,8 @@ GE Patcher - это инструмент для изменения данных 
 
 <ins class="adsbygoogle"
 style="display:block"
-data-ad-client="ca-pub-2336226859954206"
-data-ad-slot="6758794743"
+data-ad-client="ca-pub-7637695321442015"
+data-ad-slot="7113006248"
 data-ad-format="auto"
 data-full-width-responsive="true"> </ins>
 

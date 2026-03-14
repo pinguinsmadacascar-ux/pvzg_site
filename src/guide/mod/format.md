@@ -1,9 +1,9 @@
 ---
-title: 属性参考(latest)
+title: 属性参考
 icon: file-invoice
 pageInfo: false
 index: true
-order: 2
+order: 4
 ---
 
 <script setup>
@@ -13,16 +13,13 @@ order: 2
     })
 </script>
 
-> [!warning]
-> 以下教程仅适用于`0.3.X`-`0.6.X`版本。
-
 > [!important]
 > 表格中，斜体的属性为不建议修改的字段，修改后可能会导致游戏崩溃或无法正常运行。
 
 <ins class="adsbygoogle"
      style="display:block"
-     data-ad-client="ca-pub-2336226859954206"
-     data-ad-slot="6758794743"
+     data-ad-client="ca-pub-7637695321442015"
+     data-ad-slot="7113006248"
      data-ad-format="auto"
      data-full-width-responsive="true">
 </ins>
@@ -103,7 +100,7 @@ PlantProps.json 文件包含植物的数值属性。
 
 ## 商店文件
 
-`StoreCommodityFeatures.json` 文件包含商店的商品信息，有`Plants`、`Upgrade`、`Gem` 和 `Coin` 四个数组，表示不同类型的商品信息。
+`StoreCommodityFeatures.json` 文件包含商店的商品信息，有`Plants`、`Upgrade`、`Gem`、`Coin` 和 `Zen` 五个数组，表示不同类型的商品信息。
 
 ### Plants
 
@@ -187,6 +184,19 @@ PlantProps.json 文件包含植物的数值属性。
 | ------------------------ | ----------------------- |
 | _CommodityType_          | 固定值"coin"            |
 | CommodityCount           | 获得的金币数量          |
+| **CurrencyType**         | 货币类型("gem"或"coin") |
+| CurrencyRequired         | 需要支付的货币数量      |
+| _StackLevel_             | 商品包等级              |
+| **CommodityDisplayName** | 商品显示名称(多语言)    |
+
+### Zen
+
+`Zen` 数组包含禅境花园商品的信息，结构与 `Gem`/`Coin` 相同。
+
+| 字段                     | 说明                    |
+| ------------------------ | ----------------------- |
+| _CommodityType_          | 固定值"zen"             |
+| CommodityCount           | 获得的禅境花园资源数量  |
 | **CurrencyType**         | 货币类型("gem"或"coin") |
 | CurrencyRequired         | 需要支付的货币数量      |
 | _StackLevel_             | 商品包等级              |

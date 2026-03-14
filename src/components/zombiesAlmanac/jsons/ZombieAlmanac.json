@@ -2304,7 +2304,7 @@
 						},
 						"DESCRIPTION": {
 							"en": "explodes into a shower of imps if not destroyed quickly",
-							"zh": "未被即使处理则会炸膛迸发出一群小鬼"
+							"zh": "未被及时处理则会炸膛迸发出一群小鬼"
 						}
 					}
 				],
@@ -2964,7 +2964,7 @@
 				],
 				"Chat": {
 					"en": "Pianist Zombie only knows two songs, and they're both groaners.",
-					"zh": "奏琴僵尸只知道两手曲子，而且歌词都是吼叫。"
+					"zh": "奏琴僵尸只知道两首曲子，而且歌词都是吼叫。"
 				},
 				"DisplayOffset": {
 					"x": 0,
@@ -3560,6 +3560,50 @@
 				"Chat": {
 					"en": "Don't get it wrong, he just used to try performing acrobatics involving a kettle on the head.",
 					"zh": "不要误会，他原本只是想尝试头顶茶壶的杂技。"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"DisplayScale": {
+					"x": 1,
+					"y": 1
+				}
+			}
+		},
+		{
+			"//": "armor4",
+			"aliases": [
+				"kongfu_armor4"
+			],
+			"objclass": "ZombieAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "TOUGHNESS",
+						"SORT": {
+							"en": "Machined",
+							"zh": "重甲"
+						},
+						"PROGRESS": 0.8
+					},
+					{
+						"TYPE": "SPEED",
+						"SORT": {
+							"en": "Basic",
+							"zh": "普通"
+						},
+						"PROGRESS": 0.5
+					}
+				],
+				"Introduction": {
+					"en": "Kongfu Censer-headed Zombie wears a hard-tiled censer, providing sturdy protection.",
+					"zh": "武斗香炉僵尸的头戴坚硬的瓦制香炉，得到了厚实的防护。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "In order to wear this censer, he specially learned the Bone-contraction Skill.",
+					"zh": "为了戴上这个香炉，他特意学会了缩骨功。"
 				},
 				"DisplayOffset": {
 					"x": 0,
@@ -4435,6 +4479,61 @@
 			}
 		},
 		{
+			"//": "zomboss",
+			"aliases": [
+				"kongfu_boss_chi"
+			],
+			"objclass": "ZombieAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "TOUGHNESS",
+						"SORT": {
+							"en": "Undying",
+							"zh": "不朽"
+						},
+						"PROGRESS": 1
+					},
+					{
+						"TYPE": "SPEED",
+						"SORT": {
+							"en": "Hungry",
+							"zh": "饥渴"
+						},
+						"PROGRESS": 0.6
+					}
+				],
+				"Introduction": {
+					"en": "The third and the last of the Big Three to arrive at your lawn, leading an army of abbot zombies.",
+					"zh": "第三位到访你的前院的武林巨头，也是最后一位，引领着大量的住持僵尸。"
+				},
+				"Special": [
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "on recovering from stun effect, uses Golden Bell Shield to protect himself for a while.",
+							"zh": "在眩晕结束后，会使用金钟罩保护自己一段时间"
+						}
+					}
+				],
+				"Chat": {
+					"en": "As the top leader of the Big Three, Qigong Master laid the foundation for the entire kongfu area. Mastering Qigong is the ultimate realm of learning kongfu, while Qigong Master grasped this early on, founding the Qigong Sect! As the sect spread, abbots and bronzes gradually became undefeated powerhouses all over China.",
+					"zh": "作为武林三巨头的一把手，气功教主奠定了整个功夫界的根基。掌握气功本就是学习功夫的最终境地，气功教主却很早就领悟这一点并开创了气功教！随着气功教的传播，住持僵尸和铜人也逐渐成为了打遍天下无敌手的存在。"
+				},
+				"DisplayOffset": {
+					"x": 20,
+					"y": -60
+				},
+				"DisplayScale": {
+					"x": 1,
+					"y": 1
+				}
+			}
+		},
+		{
 			"aliases": [
 				"monk_drink"
 			],
@@ -4487,6 +4586,80 @@
 				"Chat": {
 					"en": "As long as he's undefeatable, he can ignore any rules for monks.",
 					"zh": "实力够强则可无视戒规。"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"DisplayScale": {
+					"x": 1,
+					"y": 1
+				}
+			}
+		},
+		{
+			"aliases": [
+				"monk_drink_veteran"
+			],
+			"objclass": "ZombieAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "TOUGHNESS",
+						"SORT": {
+							"en": "Protected",
+							"zh": "加强"
+						},
+						"PROGRESS": 0.8
+					},
+					{
+						"TYPE": "SPEED",
+						"SORT": {
+							"en": "Flighty",
+							"zh": "飞速"
+						},
+						"PROGRESS": 1
+					}
+				],
+				"Introduction": {
+					"en": "Becomes enraged after drinking",
+					"zh": "喝酒后，能进入狂暴状态。"
+				},
+				"Special": [
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "damages plants in nearby lanes",
+							"zh": "可以打击相邻行的植物"
+						}
+					},
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "becomes resistant, powerful and speedy after drinking",
+							"zh": "喝酒后，抵抗力上升，伤害更高，走得更快"
+						}
+					},
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "drinks when damaged",
+							"zh": "受重伤后饮酒"
+						}
+					}
+				],
+				"Chat": {
+					"en": "As known for all, \"pitch-pot\" is a game where literati throw arrows into a pot. However, the Pitch-pot Monk Zombie is definitely no literatus.",
+					"zh": "众所周知，“投壶”是文人把箭投进壶里的游戏。然而，投壶武僧僵尸明显不是文人。"
 				},
 				"DisplayOffset": {
 					"x": 0,
@@ -5018,6 +5191,50 @@
 			}
 		},
 		{
+			"//": "armor4",
+			"aliases": [
+				"monk_armor4"
+			],
+			"objclass": "ZombieAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "TOUGHNESS",
+						"SORT": {
+							"en": "Machined",
+							"zh": "重甲"
+						},
+						"PROGRESS": 0.8
+					},
+					{
+						"TYPE": "SPEED",
+						"SORT": {
+							"en": "Basic",
+							"zh": "普通"
+						},
+						"PROGRESS": 0.5
+					}
+				],
+				"Introduction": {
+					"en": "Monk Censer-headed Zombie wears a hard-tiled censer, providing sturdy protection.",
+					"zh": "武僧香炉僵尸的头戴坚硬的瓦制香炉，得到了厚实的防护。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "In order to wear this censer, he specially learned the skill to hold his breath permanently. Though, it's not necessary for him to breathe.",
+					"zh": "为了戴上这个香炉，他特意学会了永久憋气的功法。实际上他本来就不需要呼吸。"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"DisplayScale": {
+					"x": 1,
+					"y": 1
+				}
+			}
+		},
+		{
 			"//": "flag",
 			"aliases": [
 				"monk_flag"
@@ -5398,6 +5615,50 @@
 				"Chat": {
 					"en": "He filled the iron kettle with tea and clamped it on his head so that he could sometimes experience the dizzy drunk-feelings while drinking is prohibited.",
 					"zh": "饮酒是被禁止的，因此他将这个铁壶装满茶水后扣在头上，这样第二天早上也能因彻夜难眠体验到醉酒的眩晕感。"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"DisplayScale": {
+					"x": 1,
+					"y": 1
+				}
+			}
+		},
+		{
+			"//": "armor4",
+			"aliases": [
+				"abbot_armor4"
+			],
+			"objclass": "ZombieAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "TOUGHNESS",
+						"SORT": {
+							"en": "Machined",
+							"zh": "重甲"
+						},
+						"PROGRESS": 0.8
+					},
+					{
+						"TYPE": "SPEED",
+						"SORT": {
+							"en": "Basic",
+							"zh": "普通"
+						},
+						"PROGRESS": 0.5
+					}
+				],
+				"Introduction": {
+					"en": "Monk Censer-headed Zombie wears a hard-tiled censer, providing sturdy protection.",
+					"zh": "武僧香炉僵尸的头戴坚硬的瓦制香炉，得到了厚实的防护。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "In order to wear this censer, he secretly used qigong to make it expand with heat and contract with cold.",
+					"zh": "为了戴上这个香炉，他偷偷地用气功让香炉“热胀冷缩”。"
 				},
 				"DisplayOffset": {
 					"x": 0,
@@ -6092,7 +6353,7 @@
 				],
 				"Chat": {
 					"en": "Now past his prime, Mecha-Football Zombie is ready to be put back into the game. Until he gets some brains, concussions aren't a concern.",
-					"zh": "即使已经过气，机甲橄榄球盔僵尸还是准备重返游戏。在他得到脑子之前，不会出现脑震荡并的问题。"
+					"zh": "即使已经过气，机甲橄榄球盔僵尸还是准备重返游戏。在他得到脑子之前，不会再出现脑震荡的问题。"
 				},
 				"DisplayOffset": {
 					"x": 0,
@@ -7128,7 +7389,7 @@
 				],
 				"Introduction": {
 					"en": "Regular beach bum zombie.",
-					"zh": "普通的在海滩游荡的僵尸"
+					"zh": "普通的在海滩游荡的僵尸。"
 				},
 				"Special": [],
 				"Chat": {
@@ -7985,7 +8246,7 @@
 				],
 				"Chat": {
 					"en": "The Zombot Sharktronic Sub is a true labor of love. Dr. Zomboss obsessed over every detail of the aquatic mechanism of doom as he worked on it day in and day out from the wee hours of the morning until well after dark. He carefully handcrafted the shark's nearly impenetrable skin. He shaved each razor-sharp tooth to a point by hand. And he painstakingly installed the lethal plant-consuming fan inside the machines' horrific maw all by himself. Zomboss shed more than one tear of joy when his masterpiece was complete. Say what you will about the evil genius, but he is quite passionate about his projects.",
-					"zh": "巨鲨号深潜艇是充满爱的劳动成果。僵尸博士日复一日地工作，从凌晨一直工作到天黑，痴迷于这个水下杀手的每一个细节。他小心翼翼地手工制作鲨鱼几乎坚不可摧的皮肤，亲手将每一颗锋利的牙齿剃成尖角，还独自一人费尽心机地在机器可怕的大嘴里安装了致命的涡轮发动机。当他的杰作完成时，僵尸博士流下了禁不住潸然泪下。不得不承认这是一位邪恶的天才，但他对自己的作品充满热情。"
+					"zh": "巨鲨号深潜艇是充满爱的劳动成果。僵尸博士日复一日地工作，从凌晨一直工作到天黑，痴迷于这个水下杀手的每一个细节。他小心翼翼地手工制作鲨鱼几乎坚不可摧的皮肤，亲手将每一颗锋利的牙齿剃成尖角，还独自一人费尽心机地在机器可怕的大嘴里安装了致命的涡轮发动机。当他的杰作完成时，僵尸博士禁不住潸然泪下。不得不承认这是一位邪恶的天才，但他对自己的作品充满热情。"
 				},
 				"DisplayOffset": {
 					"x": -60,
@@ -8244,7 +8505,7 @@
 				],
 				"Introduction": {
 					"en": "Marks the arrival of a huge frosty \"wave\" of zombies.",
-					"zh": "预示着一大波乘着冰风僵尸的到来。"
+					"zh": "预示着一大波乘着冰风的僵尸的到来。"
 				},
 				"Special": [],
 				"Chat": {
@@ -9419,7 +9680,7 @@
 				],
 				"Introduction": {
 					"en": "Drops pack on Gold Tile.",
-					"zh": "将背包丢在黄金地砖上"
+					"zh": "将背包丢在黄金地砖上。"
 				},
 				"Special": [
 					{
@@ -9984,6 +10245,50 @@
 			}
 		},
 		{
+			"//": "armor4",
+			"aliases": [
+				"eighties_armor4"
+			],
+			"objclass": "ZombieAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "TOUGHNESS",
+						"SORT": {
+							"en": "Machined",
+							"zh": "重甲"
+						},
+						"PROGRESS": 0.8
+					},
+					{
+						"TYPE": "SPEED",
+						"SORT": {
+							"en": "Basic",
+							"zh": "普通"
+						},
+						"PROGRESS": 0.5
+					}
+				],
+				"Introduction": {
+					"en": "Spotlight Neon Zombie's metal shell provides thorough eye-catching toughness.",
+					"zh": "聚光灯霓虹僵尸的金属外壳提供了引人注目的保护。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "He always longed to play a major role under the spotlight — now his chance has arrived.",
+					"zh": "他总是期待能在聚光灯下发挥巨大的作用，现在他的机会来了。"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				},
+				"DisplayScale": {
+					"x": 1,
+					"y": 1
+				}
+			}
+		},
+		{
 			"//": "flag",
 			"aliases": [
 				"eighties_flag"
@@ -10073,6 +10378,50 @@
 				},
 				"DisplayOffset": {
 					"x": 0,
+					"y": 0
+				},
+				"DisplayScale": {
+					"x": 1,
+					"y": 1
+				}
+			}
+		},
+		{
+			"//": "rally",
+			"aliases": [
+				"eighties_flag_veteran"
+			],
+			"objclass": "ZombieAlmanacProperties",
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "TOUGHNESS",
+						"SORT": {
+							"en": "Protected",
+							"zh": "加强"
+						},
+						"PROGRESS": 0.5
+					},
+					{
+						"TYPE": "SPEED",
+						"SORT": {
+							"en": "Speedy",
+							"zh": "快速"
+						},
+						"PROGRESS": 0.85
+					}
+				],
+				"Introduction": {
+					"en": "Neon Rally Zombie leads a great parade of wildly dancing zombies.",
+					"zh": "霓虹大动员僵尸会引领着一大群游行的狂舞僵尸到来。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "Learnig to dance is an extremely demanding part. In comparison, building physical strength and leading the charge seem easier — far more dangerous though.",
+					"zh": "练习舞蹈是非常辛苦的一环，相比之下强身健体带头冲锋似乎还更轻松，只不过更危险罢了。"
+				},
+				"DisplayOffset": {
+					"x": 30,
 					"y": 0
 				},
 				"DisplayScale": {

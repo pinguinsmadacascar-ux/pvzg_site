@@ -15,24 +15,24 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
     "@vuepress/helper": "2.0.0-rc.110",
-    "@vuepress/plugin-docsearch": "2.0.0-rc.121",
-    "@vuepress/plugin-redirect": "2.0.0-rc.121",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.125",
+    "@vuepress/plugin-redirect": "2.0.0-rc.125",
     "artalk": "^2.9.1",
-    "sass": "^1.97.0",
+    "sass": "^1.97.3",
     "vite": "^6.4.1",
-    "vue": "^3.5.26",
+    "vue": "^3.5.29",
     "vuepress": "2.0.0-rc.26",
-    "vuepress-theme-hope": "2.0.0-rc.99",
-    "wrangler": "^4.56.0"
+    "vuepress-theme-hope": "2.0.0-rc.103",
+    "wrangler": "^4.71.0"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.1",
     "@intlify/unplugin-vue-i18n": "^6.0.8",
-    "@vuepress/plugin-watermark": "2.0.0-rc.121",
+    "@vuepress/plugin-watermark": "2.0.0-rc.125",
     "ant-design-vue": "^4.2.6",
-    "axios": "^1.13.2",
+    "axios": "^1.13.6",
     "json5": "^2.2.3",
-    "vue-i18n": "^11.2.2"
+    "vue-i18n": "^11.2.8"
   },
-  "packageManager": "pnpm@10.25.0+sha512.5e82639027af37cf832061bcc6d639c219634488e0f2baebe785028a793de7b525ffcd3f7ff574f5e9860654e098fe852ba8ac5dd5cefe1767d23a020a92f501"
+  "packageManager": "pnpm@10.30.3+sha512.c961d1e0a2d8e354ecaa5166b822516668b7f44cb5bd95122d590dd81922f606f5473b6d23ec4a5be05e7fcd18e8488d47d978bbe981872f1145d06e9a740017"
 }
